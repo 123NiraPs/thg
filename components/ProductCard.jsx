@@ -1,9 +1,15 @@
+import Image from "next/image";
 import React from "react";
 
 const ProductCard = () => {
   return (
     <div className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer">
-      <img src="/assets/slide-1.png" className="w-full" alt="product image" />
+      <Image
+        src="/assets/slide-1.png"
+        width={500}
+        height={500}
+        alt="product image"
+      />
       <div className="p-4 text-black/[0.9]">
         <h2 className="text-lg font-medium">product Name</h2>
         <div className="flex items-center text-black/[0.5]">

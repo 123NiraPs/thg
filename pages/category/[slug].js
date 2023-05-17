@@ -1,12 +1,8 @@
 import ProductCard from "@/components/ProductCard";
 import Wrapper from "@/components/Wrapper";
-import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react";
 
 const Category = () => {
-  const router = useRouter();
-  const { slug } = router.query;
   return (
     <div className="w-full md:py-20">
       <Wrapper>
